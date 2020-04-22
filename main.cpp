@@ -1,7 +1,8 @@
-#include <iostream>
-#include <vect.h>
 
-using namespace std;
+#include "vect.h"
+#include "matrix.h"
+#include "hmath.h"
+
 
 int main()
 {
@@ -49,8 +50,7 @@ int main()
     y.push_back(-2);
     y.push_back(3);
     x2.push_back(y);
-    printMatrix(x1);
-    printMatrix(x2);
-    printMatrix(matrixTransponieren(x1));
+
+
     return 0;
 }
