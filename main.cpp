@@ -50,7 +50,7 @@ int main()
     y.push_back(-2);
     y.push_back(3);
     x2.push_back(y);
-
+    matrix::printMatrix(matrix::drehMatrirx(0,XAxis));
 
     return 0;
 }

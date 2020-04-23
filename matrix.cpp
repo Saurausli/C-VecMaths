@@ -153,7 +153,7 @@ vector<vector<double>> matrix::matrixTransponieren(vector<vector<double>> v1){
     return res;
 }
 
-vector<vector<double>> drehMatrirx(double arg_Winkel, unsigned int arg_Achse){
+vector<vector<double>> matrix::drehMatrirx(double arg_Winkel, unsigned int arg_Achse){
 
     vector<vector<double>> res;
     if(arg_Achse==1){
