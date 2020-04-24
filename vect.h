@@ -1,9 +1,7 @@
 #ifndef VECT_H
 #define VECT_H
 
-#include <matrix.h>
-
-
+#include <iostream>
 
 struct richtungsVektor
 {
@@ -39,7 +37,7 @@ class vect{
         static void printlnPunkt(punkt pt);
         static void printStrecke(strecke s);
         static void printlnStrecke(strecke s);
-        static string vorzeichen(double x);
+        static std::string vorzeichen(double x);
 
         static void printEbenenGleichung(ebenenGleichung eb);
         static void printlnEbenenGleichung(ebenenGleichung eb);

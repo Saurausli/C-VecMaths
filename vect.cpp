@@ -1,12 +1,13 @@
 #include "vect.h"
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 vect::vect(){
 
 }
 void vect::printRitchtungsVektor(richtungsVektor v){
-    cout<<"vect{"<<v.x<<", "<<v.y<<", "<<v.z<<"}";
+    cout<<"vect{"<<round(v.x*1000)/1000<<", "<<round(v.y*1000)/1000<<", "<<round(v.z*1000)/1000<<"}";
 }
 
 void vect::printlnRitchtungsVektor(richtungsVektor v){
@@ -15,7 +16,7 @@ void vect::printlnRitchtungsVektor(richtungsVektor v){
 }
 
 void vect::printPunkt(punkt pt){
-    cout<<"pt["<<pt.x<<", "<<pt.y<<", "<<pt.z<<"]";
+    cout<<"pt["<<round(pt.x*1000)/1000<<", "<<round(pt.y*1000)/1000<<", "<<round(pt.z*1000)/1000<<"]";
 }
 
 void vect::printlnPunkt(punkt pt){
