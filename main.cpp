@@ -9,7 +9,7 @@ int main()
     denaHartSatz satz;
     satz.alpha=0;
     satz.d=0;
-    satz.r=1;
+    satz.r=0;
 
     richtungsVektor richt;
     richt.x=1;
@@ -18,7 +18,7 @@ int main()
     richtungsVektor res;
     vector<vector<double>> hom;
 
-    for(int i=0;i<=180;++i){
+    for(int i=0;i<=360;++i){
         satz.winkel=i;
     hom=matrix::denavitHartenbergTransformation(satz);
     res =matrix::getPunkt(hom,richt);
